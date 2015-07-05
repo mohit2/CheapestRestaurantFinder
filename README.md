@@ -1,5 +1,10 @@
 # CheapestRestaurantFinder
 
+#RUN INSTRUCTIONS:
+1>Replace sample_csv with whatever file you want to read from .
+2>Execute com.mohit.restaurant.restaurantFinder.java with arguments 1>fileName of csv 2>menu item 1 3>menu item 2  etc so on
+
+#problem Statement
 Jurgensville Restaurant Puzzle:
 
 --------------------------------
