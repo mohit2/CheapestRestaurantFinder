@@ -14,7 +14,7 @@ import com.mohit.restaurant.*;
 
 public class CsvParser  {
 
-	private static final String TOKEN = ",";
+	private static final String DELIMITER = ",";
 	private static final int RESTAURANT_ID_INDEX = 0;
 	private static final int PRICE_INDEX = 1;
 	private static final int FOOD_ITEMS_INDEX = 2;
@@ -32,7 +32,7 @@ public class CsvParser  {
 			String line;
 			br = new BufferedReader(new FileReader(new File(fileName)));
 			while ((line = br.readLine()) != null) {
-				String[] values = line.split(TOKEN);
+				String[] values = line.split(DELIMITER);
 				Integer restaurantId = Integer.parseInt(values[RESTAURANT_ID_INDEX]);
 				Restaurant restaraunt;
 				if (!restaurantMap.containsKey(restaurantId)) {
