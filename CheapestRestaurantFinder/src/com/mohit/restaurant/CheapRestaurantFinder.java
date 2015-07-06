@@ -24,7 +24,7 @@ public class CheapRestaurantFinder {
 		 */
 		Collection<Restaurant> restaurants=CsvParser.parse(args[0]);
 		
-		//Prepare Order Items Set 
+		// Prepare Order Items Set 
 		for(int i=1;i<args.length;i++){
 			orderItems.add(args[i]);
 		}

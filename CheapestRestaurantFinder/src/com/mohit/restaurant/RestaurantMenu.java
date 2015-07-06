@@ -3,7 +3,9 @@ package com.mohit.restaurant;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
-
+/*
+ * Restaurant class, holds Menu and restaurant id
+ */
 public class RestaurantMenu {
 
 	Map<Set<String>,Float> menuItems = new HashMap<Set<String>,Float>();
